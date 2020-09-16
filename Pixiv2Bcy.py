@@ -85,9 +85,9 @@ def showImg():
     wd.find_element_by_id('switcher_plogin').click()  # 使用账号密码登录
     u = wd.find_element_by_id('u')
     p = wd.find_element_by_id('p')
-    userId = '1399651432'
+    userId = '你的qq号'
     u.send_keys(userId)
-    passWord = 'wang563.89'
+    passWord = '你的密码'
     p.send_keys(passWord)
     wd.find_element_by_id('login_button').click()
     #
